@@ -1,7 +1,8 @@
-//my first jenkins file
 pipeline {
 	agent {
-			label "built-in"
+		label{
+			label "slave-2"
+			}
 		}
 		
 		stages {
