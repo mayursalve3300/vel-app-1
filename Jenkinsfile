@@ -6,9 +6,9 @@ pipeline {
 		}
 		
 		stages {
-			stage ('master') {
+			stage ('23Q2') {
 				steps {
-					echo "this is master branch"
+					echo "this is 23Q2 branch"
 				}
 			
 			}
