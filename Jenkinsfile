@@ -8,8 +8,8 @@ pipeline {
 		stages {
 			stage ('deploy-index') {
 				steps {
-					sh "cp -r index.html /var/www/html/"
-					sh "chmod -R 777 /var/www/html"
+					sh "sudo cp -r index.html /var/www/html/"
+					sh "sudo chmod -R 777 /var/www/html"
 				}
 			
 			}
